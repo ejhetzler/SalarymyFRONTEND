@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # This points to your API running locally on your Mac
-api_url = "salarymyapi-gff2e4gcfgbjgbcv.centralus-01.azurewebsites.net"
+api_url = "https://salarymyapi-gff2e4gcfgbjgbcv.centralus-01.azurewebsites.net"
 
 
 @app.route("/")
