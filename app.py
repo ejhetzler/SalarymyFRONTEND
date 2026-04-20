@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# This points to your API running locally on your Mac
-api_url = "https://salarymyapi-gff2e4gcfgbjgbcv.centralus-01.azurewebsites.net"
+api_url = "https://salarymyapi-gff2e4gcfgbjgbcv.centralus-01.azurewebsites.net/predict"
 
 
 @app.route("/")
@@ -40,4 +39,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True) 
+    app.run(host="0.0.0.0", port=5001, debug=True)
